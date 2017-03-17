@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+    <RelativeLayout
+        android:id="@+id/rl_list_img"
+        android:layout_width="150dp"
+        android:layout_height="90dp" >
+
+        <ImageView
+            android:id="@+id/list_img"
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/default_pic" />
+
+        <ImageView
+            android:id="@+id/icon_video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            android:src="@mipmap/icon_play_white_small"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/list_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/rl_list_img"
+        android:layout_marginLeft="10dp"
+        android:layout_alignTop="@id/rl_list_img"
+        android:text="标题"
+        android:textSize="16sp" />
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:paddingRight="10dp"
+        android:layout_toRightOf="@id/rl_list_img"
+        android:gravity="center_vertical"
+        android:layout_alignBottom="@+id/rl_list_img">
+
+        <TextView
+            android:id="@+id/tv_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/column_gray"
+            android:text="吉尔吉斯斯坦  1分钟前"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/comment_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/column_gray"
+            android:drawableLeft="@mipmap/icon_comment"
+            android:text="0"
+            android:drawablePadding="5dp"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

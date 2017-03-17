@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#cc2f3c</color>
+    <color name="colorPrimaryDark">#cc2f3c</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="white">#ffffff</color>
+    <color name="maintextcolor">#343434</color>
+    <color name="textColorHint">#a1a1a1</color>
+    <color name="main_background">#ededed</color>
+
+    <color name="black_overlay">#66000000</color>
+
+
+    <drawable name="gray01">#f0f0f0</drawable>
+    <drawable name="gray02">#4e4e4e</drawable>
+    <drawable name="white">#FFFFFFFF</drawable>
+    <drawable name="silver">#00ffffff</drawable>
+
+    <color name="column_gray">#5A5A5A</color>
+    <color name="column_blue">#0A5DA3</color>
+    <color name="column_red">#cc2f3a</color>
+    <color name="all_comments_bg">#efefef</color>
+    <color name="comment_top_font">#3D3D3D</color>
+    <color name="bg_white">#ffffff</color>
+    <color name="comment_bottom_line">#3D3D3D</color>
+    <color name="comment_bottom_bg">#f0f0f0</color>
+    <color name="comment_bottom_bg_night">#464646</color>
+    <color name="comment_bottom_hint">#898989</color>
+    <color name="setting_top_font">#3c3c3c</color>
+    <color name="setting_font">#727171</color>
+    <color name="line_gary">#DDDDDE</color>
+    <color name="font_size">#CC2F3A</color>
+    <color name="font_black">#050505</color>
+    <color name="bg_black">#88000000</color>
+    <color name="left_top_night">#074172</color>
+    <color name="user_name_night">#939393</color>
+    <color name="line_night">#787878</color>
+    <color name="left_bg_night">#282828</color>
+    <color name="scroll_bg_night">#1E1E1E</color>
+    <color name="scroll_text_night">#008CCF</color>
+    <color name="comment_bg_night">#323232</color>
+    <color name="comment_hit">#BEBEBE</color>
+    <color name="left_orange">#ed6135</color>
+    <color name="list_divider">#d4d5d5</color>
+    <color name="content_com_bg">#f5f5f5</color>
+    <color name="content_line">#d9d9d9</color>
+    <color name="comment_content">#313131</color>
+    <color name="cover_day">#00000000</color>
+    <color name="cover_night">#7f000000</color>
+
+</resources>
